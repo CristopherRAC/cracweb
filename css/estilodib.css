@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* CSS Document */
+
+.planesDibujo{
+	width: 90vw;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	height: 110vh;
+	/*background-color: blue;*/
+	margin-bottom: 5vh;
+	margin-top: 5vh;
+	text-align: center;
+	
+}
+
+.dib1PLANES{
+	
+	/*background-color: #F4F4F4;*/
+	width: 47%;
+	margin-right: 6%;
+	float: left;
+	height: 100%;
+	padding-top: 2%;
+	-webkit-box-shadow: 3px 5px 77px -23px rgba(0,0,0,1);
+	-moz-box-shadow: 3px 5px 77px -23px rgba(0,0,0,1);
+	box-shadow: 3px 5px 77px -23px rgba(0,0,0,1);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+	
+}
+.dib1PLANES:hover{
+	
+	/*background-color: #F4F4F4;*/
+	-webkit-box-shadow: 10px 10px 98px 9px rgba(0,0,0,1);
+-moz-box-shadow: 10px 10px 98px 9px rgba(0,0,0,1);
+box-shadow: 10px 10px 98px 9px rgba(0,0,0,1);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+	
+}
+.dib2PLANES{
+	
+
+	width: 47%;
+	height: 100%;
+	float: left;
+	padding-top: 2%;
+	-webkit-box-shadow: 3px 5px 77px -23px rgba(0,0,0,1);
+	-moz-box-shadow: 3px 5px 77px -23px rgba(0,0,0,1);
+	box-shadow: 3px 5px 77px -23px rgba(0,0,0,1);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.dib2PLANES:hover{
+	
+	/*background-color: #F4F4F4;*/
+	-webkit-box-shadow: 10px 10px 98px 9px rgba(0,0,0,1);
+-moz-box-shadow: 10px 10px 98px 9px rgba(0,0,0,1);
+box-shadow: 10px 10px 98px 9px rgba(0,0,0,1);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+	
+}
+
+
+.BN{
+	background: url(../img/portfolio/13_02_20182.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 80%;
+	height: 80%;
+	margin: 0% 10% 0% 10% ;
+}
+.Dcolor{
+	background: url(../img/portfolio/portfolio-03-large.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 80%;
+	height: 80%;
+	margin: 0% 10% 0% 10% ;
+}
+
+.ContactoRedes{
+	width: 80vw;
+	height: 30vh;
+	margin-top: 10vh;
+	margin-left: 10vw;
+	margin-right: 10vw;
+	background-color: snow;
+	padding-bottom: 5vh;
+}
+
+.ContactoRedes h1{
+	color: #1D1D1D; font-family: 'Indie Flower', cursive; 
+	font-size: 20px; 
+	margin-top: 3%; 
+	margin-bottom: 3%; 
+	text-align: center
+}
+.Instagram{
+	margin-left: 36%;
+	background: url(../img/580b57fcd9996e24bc43c521.png) no-repeat;
+	width: 10%;
+	height: 80%;
+	background-size: contain;
+	background-position: center;
+	float: left;
+	margin-right: 6vw;
+}
+.Facebook{
+	background: url(../img/2000px-F_icon.png) no-repeat;
+	width: 10%;
+	height: 80%;
+	background-size: contain;
+	background-position: center;
+	float: left;
+	margin-right: 36%;
+	
+}
+
+
+@media (max-width: 600px) {
+	.dib1PLANES{
+		width: 97%;
+		float: left;}
+	.dib2PLANES{
+		margin-top: 5%;
+	width: 97%;
+		float: left;}
+}
+.ContactoRedes{
+	width: 80vw;
+	height: 30vh;
+	margin-top: 8%;
+	margin-left: 10vw;
+	margin-right: 10vw;
+	padding-bottom: 5vh;
+	float: left;
+}
+.ContactoRedes h1{
+	color: #1D1D1D; font-family: 'Indie Flower', cursive; 
+	font-size: 20px; 
+	margin-top: 3%; 
+	margin-bottom: 3%; 
+	text-align: center
+}
+footer{
+	display: none;
+}

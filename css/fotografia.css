@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+
+.categoriasfotos h1{
+	font-family: 'Amatic SC', cursive;
+	font-size: 5vw;
+	color: white;
+	text-align: center;
+	width: 100%;
+}
+
+.categoriasfotos p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: white;
+}
+
+.primer2{
+	width: 100%;
+	height: 100vh;
+	
+}
+
+
+.primeraF{
+	width: 50%;
+	height: 100%;
+	background: url(../img/FOTOS/pexels-photo-377058.jpeg);
+	background-size: cover;
+	float: left;
+	background-position: center;
+	padding-left: 1%;
+}
+.primeraF:hover{
+	opacity: 0.5;
+	/*--------------------------*/
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+
+
+
+.segundaF{
+	width: 50%;
+	height: 100%;
+	background: url(../img/FOTOS/dog-hovawart-black-pet-89775.jpeg);
+	background-size: cover;
+	float: left;
+	background-position: center;
+	padding-left: 1%;
+}
+.segundaF:hover{
+	opacity: 0.5;
+	/*--------------------------*/
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	
+}
+
+
+
+.terceraF{
+	width: 50%;
+	height: 100%;
+	background: url(../img/FOTOS/pexels-photo-318378.jpeg);
+	background-size: cover;
+	float: left;
+	background-position: center;
+	padding-left: 1%;
+}
+.terceraF:hover{
+	opacity: 0.5;
+	/*--------------------------*/
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+
+
+
+
+.cuartaF{
+	width: 50%;
+	height: 100%;
+	background: url(../img/FOTOS/pexels-photo-266023.jpeg);
+	background-size: cover;
+	float: left;
+	background-position: center;
+	padding-left: 1%;
+}
+.cuartaF:hover{
+	opacity: 0.5;
+	/*--------------------------*/
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+
+
+
+@media screen and (max-width:700px){
+	.categoriasfotos p{
+		font-size: 15px;
+	}
+	.segundaF {width: 100%;}
+	.terceraF {width: 100%;}
+	.cuartaF {width: 100%;}
+	.primeraF{
+		width: 100%;
+	}
+	
+	p{
+		font-size: 8px;
+	}
+}
